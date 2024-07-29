@@ -1,0 +1,17 @@
+# Bloquear acceso a directorios específicos
+User-agent: *
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /config/
+
+# Bloquear acceso a archivos específicos
+
+
+# Permitir acceso a todo lo demás
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://sergio.xmlacademy.org/sitemap.xml

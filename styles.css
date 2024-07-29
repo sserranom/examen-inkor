@@ -1,0 +1,231 @@
+/************************ bootstrap styles ***************/
+
+.navbar-nav{
+    display: flex !important;
+    width: 100%;
+    justify-content: flex-end!important;
+    gap: 5rem;
+}
+
+.btn{
+    background-color: var(--second-color) !important;
+    border: none;
+    font-size: 1.3rem;
+}
+
+.card{
+    background-color: var(--first-color)!important;
+    padding: 0 1rem !important;
+    border-radius: 20px; 
+}
+
+.nav-link{
+    font-size: 1.5rem;
+}
+
+.nav-link:hover{
+    color: var(--second-color);
+    transition: all 0.3s ease-out;
+}
+
+
+.card h5{
+    color: var(--second-alpha-color);
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+label{
+    color: var(--first-color);
+    font-weight: bolder;
+}
+
+.bi{
+    font-size: 1.7rem;
+    margin: 0 1rem;
+}
+
+.bi:hover{
+    color: #FFA500;
+    transition: all 0.3s ease-out;
+}
+
+
+/************************ MY  styles ***************/
+.hero-section{
+    margin-top: 5rem;
+}
+
+.about-section{
+    margin-top: 8rem;
+}
+
+body{
+    font-family: "Caveat Brush", sans-serif;
+}
+:root{
+
+    --first-color: rgb(135, 206, 235);
+    --second-color:#FFA500;
+    --third-color:rgb(152, 255, 152); 
+    --first-alfa-color:rgb(211, 211, 211);
+    --second-alpha-color:rgb(255, 250, 205);
+
+}
+
+.fondo{
+    background: 
+    linear-gradient(
+        rgba(211, 211, 211, 0.5), 
+        rgba(255, 250, 205, 0.5)
+    ), 
+    url('Perros/PATITAS.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.menu-nav{
+    background-color: white !important;
+    background: 
+    linear-gradient(
+        rgba(135, 206, 235), 
+        rgba(211, 211, 211, 0.5)
+    )
+}
+
+.img-nav{
+    width: 4rem;
+    height: auto;
+}
+
+.img-about{
+    width: 25rem;
+    height: auto;
+}
+
+.about-h2{
+    color:var(--second-color);
+    margin-bottom: 3rem;
+}
+
+.h2-about-2{
+    color: var(--first-color);
+    margin: 1rem 0;
+}
+
+.h2-services{
+    color: var(--first-color);
+    margin: 6rem 0;
+}
+
+.card-li{
+    text-align: start!important;
+    font-size: 1.3rem;
+    color: rgb(80, 77, 77);
+    /* list-style: none; */
+    padding: 0.5rem 1rem 1rem 0.5rem;
+
+}
+.card-img-serv{
+    
+    width: 5rem;
+    height: auto;
+    padding-top: 1.5rem;
+    
+}
+
+.card-img-serv-3{
+    width: 6.6rem;
+    height: auto;
+    padding-top: 1.5rem;
+}
+
+.contact-h3{
+    color: var(--first-color);
+    margin: 6rem 0 4rem 0;
+}
+
+.fotter-img{
+    width: 7rem;
+    height: auto;
+}
+.footer-bi{
+    margin: 0 5px;
+}
+
+.footer-line{
+    height: 1px;
+    background-color: #FFA500;
+}
+
+.p-footer{
+    margin-bottom: 4rem !important;
+}
+
+p{
+    font-size: 1.5rem;
+    color: rgb(75, 73, 73);
+}
+
+/* break point */
+
+/* X-Small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .card-columns{
+        margin-bottom: 3rem;
+    }
+   .form-control {
+    width: 100% !important;
+    height: 100% !important;
+   }
+
+   .contact-input{
+    width: 80% !important;
+   }
+   .img-nav{
+    width: 3rem;
+    height: auto;
+}
+.img-about{
+    width: 15rem;
+    height: auto;
+}
+
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .img-about{
+        width: 15rem;
+        height: auto;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+    .navbar-nav{
+        display: flex !important;
+        width: 100%;
+        justify-content: flex-end!important;
+        align-items: center !important;
+        gap: 2rem;
+    }
+    .contact-input{
+        width: 80% !important;
+       }
+
+   
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+   
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
